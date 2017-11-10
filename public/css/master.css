@@ -1,0 +1,20 @@
+@import "reset.css";
+@import "variables.css";
+
+.box {
+  padding: .5rem;
+  color: #bd9993;
+  font-family: monospace;
+  background-image: linear-gradient(
+    to bottom right,
+    rgba(0, 0, 0, 0.3) 0%,
+    rgba(53, 27, 53, 0.8) 100%
+  );
+  padding: .5rem;
+}
+
+@media (min-width: 800px) {
+  .box {
+    padding: 2rem;
+  }
+}

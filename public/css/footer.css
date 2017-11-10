@@ -1,0 +1,16 @@
+
+footer {
+  color: #fff;
+  font-family: 'VCR Mono', monospace;
+  flex-shrink: 0;
+  max-height: 10vh;
+  padding: 0.2rem;
+}
+
+footer a {
+  color: #fff;
+}
+
+@media (min-width: 800px) {
+  padding: 2rem;
+}

@@ -1,0 +1,26 @@
+@import "footer.css";
+
+body {
+  background: url('../img/bg1.jpeg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.column#content {
+  width: 100%;
+  padding: 2rem;
+}
+
+.column#content {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+.column#content > * {
+  flex: 1 0 auto;
+}
+
+@media (min-width: 800px) {
+  .column#content {
+    padding: 5rem;
+  }
+}
